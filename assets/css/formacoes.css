@@ -1,0 +1,71 @@
+.formacoes{
+    background: #020644;
+    height: calc(100vh + 40px);
+    
+}
+
+.formacoes__titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.formacoes__texto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0rem 1.5rem;
+}
+
+.formacoes__texto--engenharia{
+    justify-content: center;
+    text-align: justify;
+}
+
+.formacoes__texto--one{
+    justify-content: center;
+    text-align: justify;
+}
+
+.formacoes__texto--dio{
+    justify-content: center;
+    text-align: justify;
+}
+
+.titulo{
+    color: #fdfdfd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.curso{
+    color: #fdfdfd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.label{
+    color: #fdfdfd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 1rem 0rem;
+}
+
+@media screen and (min-width:768px){
+    .formacoes{
+        max-height: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .formacoes{
+        max-height: 450px;
+    }
+
+    .formacoes__texto{
+        display: block;
+    }
+}

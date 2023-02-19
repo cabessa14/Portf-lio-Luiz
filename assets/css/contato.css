@@ -1,0 +1,47 @@
+.rodape{
+    background: #020644;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vw;
+    max-height: 260px;
+}
+
+.contato__titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.contato__titulo-titulo{
+    color: #fdfdfd;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.contato{
+    margin-top: 2.5rem;
+}
+
+.icones__contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+.direitos__reservados{
+    display: flex;
+}
+
+.direitos__reservados--texto{
+    color: #fdfdfd;
+    margin: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .rodape{
+        max-height: 260px;
+    }
+
+    .direitos__reservados{
+        justify-content: center;
+    }
+}

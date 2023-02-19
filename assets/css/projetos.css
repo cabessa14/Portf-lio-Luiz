@@ -1,0 +1,214 @@
+.projetos{
+    background: #030861;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    min-height: 2440px;
+}
+
+.projetos__titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.projetos__titulo-titulo{
+    color: #fdfdfd;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.projetos__resultados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos__resultados--google-conta{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.projetos__resultados--google-conta-img{
+    align-items: center;
+    border: 2px solid #020644;
+    width: 300px;
+    transition: all 0.4s;
+}
+
+.projetos__resultados--google-conta-img:hover{
+    box-shadow: 5px 5px 42px -8px rgba(0,0,0,0.75);
+}
+
+.projetos__resultados--google-conta-descricao{
+    color: #fdfdfd;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projetos__resultados--google-site{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.projetos__resultados--google-site-img{
+    align-items: center;
+    border: 2px solid #020644;
+    width: 300px;
+    transition: all 0.4s;
+}
+
+.projetos__resultados--google-site-img:hover{
+    box-shadow: 5px 5px 42px -8px rgba(0,0,0,0.75);
+}
+
+.projetos__resultados--google-site-descricao{
+    color: #fdfdfd;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projetos__resultados--python-forca{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.projetos__resultados--python-forca-img{
+    align-items: center;
+    border: 2px solid #020644;
+    width: 300px;
+    transition: all 0.4s;
+}
+
+.projetos__resultados--python-forca-img:hover{
+    box-shadow: 5px 5px 42px -8px rgba(0,0,0,0.75);
+}
+
+.projetos__resultados--python-forca-descricao{
+    color: #fdfdfd;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projetos__resultados--codigo-forca{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.projetos__resultados--codigo-forca-img{
+    align-items: center;
+    border: 2px solid #020644;
+    width: 300px;
+    transition: all 0.4s;
+}
+
+.projetos__resultados--codigo-forca-img:hover{
+    box-shadow: 5px 5px 42px -8px rgba(0,0,0,0.75);
+}
+
+.projetos__resultados--codigo-forca-descricao{
+    color: #fdfdfd;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projetos__resultados--python-pedra{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.projetos__resultados--python-pedra-img{
+    align-items: center;
+    border: 2px solid #020644;
+    width: 300px;
+    transition: all 0.4s;
+}
+
+.projetos__resultados--python-pedra-img:hover{
+    box-shadow: 5px 5px 42px -8px rgba(0,0,0,0.75);
+}
+
+.projetos__resultados--python-pedra-descricao{
+    color: #fdfdfd;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projetos__resultados--codigo-pedra{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.projetos__resultados--codigo-pedra-img{
+    align-items: center;
+    border: 2px solid #020644;
+    width: 300px;
+    transition: all 0.4s;
+}
+
+.projetos__resultados--codigo-pedra-img:hover{
+    box-shadow: 5px 5px 42px -8px rgba(0,0,0,0.75);
+}
+
+.projetos__resultados--codigo-pedra-descricao{
+    color: #fdfdfd;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:768px){
+    .projetos{
+        min-height: 1350px;
+    }
+
+    .projetos__resultados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px){
+    .projetos{
+        min-height: 1350px;
+    }
+
+    .projetos__resultados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0rem 5rem;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .projetos{
+        min-height: 1000px;
+    }
+
+    .projetos__resultados{
+        margin: 0rem 8rem;
+    }
+}
